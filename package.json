@@ -1,0 +1,19 @@
+{
+  "name": "session",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && yarn && yarn run build"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.477.0",
+    "body-parser": "*",
+    "cookie-parser": "*",
+    "express": "*",
+    "express-session": "*",
+    "path": "*",
+    "uuid": "^3.3.2"
+  }
+}
