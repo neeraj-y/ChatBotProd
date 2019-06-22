@@ -4,8 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node server.js",
-    "heroku-postbuild": "cd client && yarn && yarn run build"
+    "start": "node server.js"
   },
   "dependencies": {
     "aws-sdk": "^2.477.0",
