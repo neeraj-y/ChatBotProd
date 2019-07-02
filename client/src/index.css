@@ -7,6 +7,29 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.container {
+  height: 600px;
+}
+
+.row {
+  height: 600px;
+  position: relative;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute!important;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.chat-icon {
+  height: 100px;
+  position: relative;
+  cursor: pointer;
+}
+
 /*
  *  STYLE 1
  */
