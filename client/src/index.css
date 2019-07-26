@@ -5,6 +5,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("./images/bg_chatbot.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#root img {
+  vertical-align: baseline;
 }
 
 .container {
@@ -17,6 +24,7 @@ body {
 }
 
 .vertical-center {
+  margin: 0;
   position: absolute!important;
   top: 50%;
   -ms-transform: translateY(-50%);
@@ -27,6 +35,17 @@ body {
   height: 100px;
   position: relative;
   cursor: pointer;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px 40px;
+  border-radius: 16px;
+  opacity: 0.9;
+}
+
+form h2 {
+  margin-bottom: 20px;
 }
 
 /*
