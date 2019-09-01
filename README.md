@@ -11,5 +11,6 @@ React Chatbot
 # Steps to start the application:
 1. Go to root directory where package.json is present
 2. Open command prompt from this location and run command -- "npm run dev"; this will fire up two servers one for node server and another for front end
-3. Note: Node server is hosted on PORT different from client dev server PORT.
+3. Note: Node server is hosted on PORT:=>8080 different from client dev server PORT:=>3000.
 4. In order to be able to call http proxy like "/login", add "proxy" in package.json inside client folder.
+5. Note: script: {"heroku-postbuild": ""} is needed to auto trigger client build command on deployment.
